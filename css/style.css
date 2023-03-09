@@ -34,31 +34,48 @@ body{
 .moskva::before{
     content: url(../img/map_lock.svg);
     padding-right: 5px;
+    position: relative;
+    right:10px;
+    top:3px;
 }
 
 .dostavka::before{
     content: url(../img/koshel.svg);
     padding-right: 5px;
-    
+    position: relative;
+    right:10px;
+    top:3px;
 }
 
 .adres::before{
     content: url(../img/adress_icon.svg);
     padding-right: 5px;
+    position: relative;
+    right:10px;
+    top:3px;
 }
 
 .pochta::before{
     content: url(../img/pochta.svg);
     padding-right: 5px;
+    position: relative;
+    right:10px;
+    top:3px;
 }
 
 .telephone::before{
     content: url(../img/tel.svg);
     padding-right: 5px;
+    position: relative;
+    right:10px;
+    top:3px;
 }
 .telephone::after{
     content: url(../img/info.svg);
     padding-left: 5px;
+    position: relative;
+    left:10px;
+    top:3px;
 }
 
 .header_mid{
@@ -121,7 +138,8 @@ body{
     width: 123px;
     height: 44px;
     background-color:  #FF7A00;
-    border-radius: 12px;
+    border-radius: 10px;
+    left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,26 +153,35 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    
 }
 
 .botton_poisk::before{
     content: url(../img/lupa.svg);
-    
+    position: relative;
+    right:5px;
+    top:3px;
 }
 
 .otlog::before{
     content: url(../img/zaklad.svg);
     padding-right: 5px;
-    
+    position: relative;
+    right:10px;
+    top:3px;
 }
 .voiti::before{
     content: url(../img/smile.svg);
     padding-right: 5px;
+    position: relative;
+    right:10px;
+    top:3px;
 }
 .karzin::before{
     content: url(../img/karzin.svg);
     padding-right: 5px;
+    position: relative;
+    right:10px;
+    top:3px;
 }
 
 .pustota{
@@ -183,6 +210,8 @@ body{
 
 .skidki::before{
     content: url(../img/skid.svg);
+    position: relative;
+    top: 3px;
     padding-right: 5px;
 }
 
@@ -297,7 +326,8 @@ body{
 
 .moi_proph::before{
     content: url(../img/Rectangle\ 950.svg);
-    
+    position: relative;
+    right:15px;
 }
 .moi_proph_t{
     font-weight: 500;
